@@ -349,7 +349,7 @@ Pick your preferred Azure region when prompted (if you're not sure, choose **Eas
 
 Once the deployment is finished, the CLI will show you the URL of the deployed resources, including the MCP server endpoint.
 
-TODO ![AZD deployment output](./assets/azd-deployment.png)
+![AZD deployment output for the burger MCP example app](./assets/azd-deployment.png)
 
 ## Example projects
 
