@@ -364,6 +364,7 @@ module burgerMcpFunctionSettings 'br/public:avm/res/web/site/config:0.1.0' = {
     name: 'appsettings'
     appName: burgerMcpFunction.outputs.name
     properties: {
+      AzureWebJobsFeatureFlags: 'EnableMcpCustomHandlerPreview'
       AZURE_STORAGE_URL: storageUrl
       AZURE_STORAGE_CONTAINER_NAME: blobContainerName
       BURGER_API_URL: burgerApiUrl

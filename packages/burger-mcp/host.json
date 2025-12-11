@@ -1,17 +1,14 @@
 {
   "version": "2.0",
-  "extensions": {
-    "http": {
-      "routePrefix": ""
-    }
-  },
+  "configurationProfile": "mcp-custom-handler",
   "customHandler": {
     "description": {
       "defaultExecutablePath": "node",
-      "workingDirectory": "",
       "arguments": ["lib/server.js"]
     },
-    "enableForwardingHttpRequest": true,
-    "enableHttpProxyingRequest": true
+    "http": {
+      "DefaultAuthorizationLevel": "anonymous"
+    },
+    "port": "3000"
   }
 }
